@@ -43,33 +43,7 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Bareilly , Uttar Pradesh ,
-                        India</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>office.dor@mjpru.ac.in</small>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://twitter.com/mjp_bareilly"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://www.facebook.com/mjpruofficial/"><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank" href=""><i
-                            class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://www.instagram.com/mjpru.official"><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" target="_blank"
-                        href="https://www.youtube.com/channel/UCzUtKWfqBhlNIQzc59jdFBQ"><i
-                            class="fab fa-youtube fw-normal"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div include-html="./components/topbar.html" id="topbar_file"></div>
     <!-- Topbar End -->
 
     <!-- Navbar & Carousel Start -->
@@ -898,7 +872,7 @@ onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
             <div class="col-lg-8 col-md-6">
                 <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
                     <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">MJPRU</a>. All Rights
-                        Reserved.</p>
+                        Reserved.<
                 </div>
             </div>
         </div>
