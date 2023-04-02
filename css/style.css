@@ -68,19 +68,19 @@
 h1,
 h2,
 .fw-bold {
-    font-weight: 800 !important;
+    font-weight: 800;
 }
 
 h3,
 h4,
 .fw-semi-bold {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 h5,
 h6,
 .fw-medium {
-    font-weight: 600 !important;
+    font-weight: 600;
 }
 
 
@@ -157,8 +157,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--danger) !important;
-    border-color: var(--danger) !important;
+    color: var(--danger);
+    border-color: var(--danger);
 }
 
 @media (max-width: 991.98px) {
@@ -234,12 +234,12 @@ h6,
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;
-        font-weight: 500 !important;
+        font-weight: 500;
     }
 
     .carousel-caption h1 {
         font-size: 30px;
-        font-weight: 600 !important;
+        font-weight: 600;
     }
 }
 
@@ -389,7 +389,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: #FFFFFF !important;
+    background: #FFFFFF;
     box-shadow: 0 0 30px #DDDDDD;
 }
 
@@ -493,6 +493,6 @@ h6,
 
 @media (min-width: 767.98px) {
     .footer-about {
-        margin-bottom: -75px;
+        margin-bottom: 1px;
     }
 }
