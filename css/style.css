@@ -1,4 +1,8 @@
 /********** Template CSS **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
 :root {
     --danger: #da3514;
     --secondary: #34AD54;
@@ -234,7 +238,7 @@ h6,
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 500 !important;
     }
 
     .carousel-caption h1 {
