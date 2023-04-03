@@ -1,6 +1,7 @@
-/********** Template CSS **********/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 
 :root {
@@ -12,9 +13,14 @@
 .marqu {
 	text-align: center;
 	justify-content: center;
-	color: #fff;
+	color: #ffffff;
 	font-size: 20px;
 	padding: 10px;
+    text-decoration: none;
+}
+
+.marqu a{
+    color: #ffffff;
 }
 
 /*** Spinner ***/
@@ -238,12 +244,29 @@ h6,
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;
-        font-weight: 500 !important;
+        font-weight: 500;
     }
 
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600;
+    }
+}
+
+.display-1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: .1px #fff;
+    background: url(/img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
     }
 }
 
@@ -500,3 +523,31 @@ h6,
         margin-bottom: 1px;
     }
 }
+
+.marqu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    animation: scroll 50s infinite linear;
+}
+
+.marqu ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #494949;
+    position: relative;
+}
+
+.marqu ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* .marqu ul li:last-child::after {
+    display: none;
+} */
