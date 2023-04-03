@@ -30,14 +30,14 @@
     margin-bottom: 1rem
 }
 
-.team-section .section-title .m-0 {
+.team-section .section-title h1 {
     font-size: 40px;
     text-align: center;
     color: --black-shade-2;
     font-weight: 700
 }
 
-.m-0::after {
+h1::after {
     content: '';
     background: #000;
     display: block;
@@ -53,7 +53,7 @@
     color: --black-shade-2
 }
 
-.container1 {
+.container3 {
     position: relative;
     perspective: 800px;
     display: flex;
@@ -63,7 +63,7 @@
     margin-bottom: 3rem
 }
 
-.container1:before {
+/* .container3:before {
     content: "";
     position: absolute;
     height: 180px;
@@ -73,9 +73,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.card1 {
+.card3 {
     height: 380px;
     width: 350px;
     position: relative;
@@ -116,14 +116,14 @@
     text-align: center
 }
 
-h2 {
+.nameh2 {
     font-size: 22px;
     font-weight: 500;
     letter-spacing: .5px;
     color: var(--black-shade-2)
 }
 
-span {
+.namespan {
     font-size: 14px;
     color: var(--white-shade-2)
 }
@@ -156,10 +156,10 @@ span {
     color: var(--theme-color-1)
 }
 
-.card1:hover .back {
+.card3:hover .back {
     transform: rotateY(0deg)
 }
 
-.card1:hover .front {
+.card3:hover .front {
     transform: rotateY(-180deg)
 }
