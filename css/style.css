@@ -255,9 +255,8 @@ h6,
 
 .display-1 {
     font-size: 50px;
-    font-weight: 600;
     color: transparent;
-    -webkit-text-stroke: .1px #fff;
+    -webkit-text-stroke: .1px #f98dad;
     background: url(/img/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -500,8 +499,8 @@ h6,
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 10px;
+    bottom: 10px;
     z-index: 99;
 }
 
@@ -548,7 +547,34 @@ h6,
     right: 0;
 }
 
-/* .marqu ul li:last-child::after {
-    display: none;
-} */
+.riflogo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
 
+.fixed-btn{
+    position: fixed;
+    bottom: 2%;
+    left: .5%;
+    background: #dc3545;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px #ff1a31;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .fixed-btn a{
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 900;
+    color: #fff;
+  }
+  
+  .fixed-btn:active{
+    box-shadow: 0  0;
+  }
