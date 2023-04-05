@@ -256,7 +256,7 @@ h6,
 .display-1 {
     font-size: 50px;
     color: transparent;
-    -webkit-text-stroke: .1px #f98dad;
+    -webkit-text-stroke: .1px #fdf8f9;
     background: url(/img/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
