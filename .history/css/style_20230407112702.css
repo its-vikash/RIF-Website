@@ -346,6 +346,7 @@ h6,
 .service-item {
     position: relative;
     height: 300px;
+    rotate: 15deg;
     padding: 0 30px;
     transition: .5s;
 }
@@ -354,7 +355,6 @@ h6,
     margin-bottom: 30px;
     width: 60px;
     height: 60px;
-    rotate: 45deg;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,7 +365,6 @@ h6,
 
 .service-item .service-icon i {
     transform: rotate(45deg);
-    /* rotate: 45deg; */
 }
 
 .service-item a.btn {
