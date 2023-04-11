@@ -162,7 +162,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #423470;
+    color: #b677f5;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -214,7 +214,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: #091e3e;
+        background: #b677f5;
         transition: .5s;
     }
 
@@ -543,7 +543,11 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/servicesbg.png) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(17, 19, 22, 0.7)), url(../img/art/About-us-01.webp) center center no-repeat;
+    background-size: cover;
+}
+.bg-header2 {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(17, 19, 22, 0.7)), url(../img/art/services.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -589,14 +593,15 @@ h6,
 
 .btn-grad {
     background-image: linear-gradient(to right, rgba(99, 88, 238, 1) 0%, rgba(150, 93, 233, 1) 51%, rgba(99, 88, 238, 1) 100%);
-    margin: 10px;
-    padding: 15px 23px;
+    margin: 30px;
+    padding: 8px 20px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 1px #5e1b99;
+    border: 2px solid white;
     border-radius: 10px;
     display: block;
 }
@@ -703,9 +708,6 @@ h6,
     margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover i {
-    color: #47b2e4;
-}
 
 #hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
