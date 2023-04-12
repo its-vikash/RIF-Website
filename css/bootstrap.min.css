@@ -4132,7 +4132,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #06A3DA
+    background-color: #b677f5;
 }
 
 .dropdown-item.disabled,
@@ -12527,3 +12527,4 @@ fieldset:disabled .btn {
         display: none
     }
 }
+
