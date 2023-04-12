@@ -242,7 +242,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    /* background: rgba(9, 30, 62, .7); */
     z-index: 1;
 }
 
@@ -595,7 +595,6 @@ h6,
 
 .btn-grad {
     background-image: linear-gradient(to right, rgba(99, 88, 238, 1) 0%, rgba(150, 93, 233, 1) 51%, rgba(99, 88, 238, 1) 100%);
-    margin: 30px;
     padding: 8px 20px;
     text-align: center;
     text-transform: uppercase;
