@@ -8,38 +8,23 @@
     text-decoration: none;
 }
 
-.container {
+/* .containerprofile {
     max-width: 1000px;
     padding: 0;
-}
+} */
 
 p {
     margin: 0;
 }
 
-.d-flex a {
-    text-decoration: none;
-    color: #686868;
-}
 
-img {
+.imgpro {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.fab.fa-twitter {
-    color: #8ab7f1;
-}
-
-.fab.fa-instagram {
-    color: #E1306C;
-}
-
-.fab.fa-facebook-f {
-    color: #5999ec;
-}
 
 .incuprofile {
     border: 1px solid black;
@@ -53,7 +38,7 @@ img {
     margin-right: auto;
 }
 
-.row {
+.rowprofile {
     text-align: center;
 }
 

@@ -164,7 +164,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #b677f5;
+    color: hsl(280, 86%, 43%);
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -216,7 +216,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: #b677f5;
+        background: hsl(280, 86%, 43%);;
         transition: .5s;
     }
 
@@ -271,7 +271,7 @@ h6,
 }
 
 .display-color{
-    color: rgb(234, 148, 0);
+    color: #febc68
 }
 
 @keyframes back {
@@ -556,7 +556,7 @@ h6,
 }
 
 .bg-header2{
-    border-top: 1px solid white;
+    border-top: 1px solid rgba(150, 93, 233, 1);
 }
 
 .link-animated a {
@@ -658,4 +658,9 @@ h6,
     margin-right: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 6px #5e1b99;
+}
+
+.marginlow{
+    margin-top: 0;
+    padding-bottom: 0;
 }
