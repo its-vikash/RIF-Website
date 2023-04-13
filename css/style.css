@@ -1,11 +1,10 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+/* #310d56   #4A1145  #efa46f */
 
 :root {
-    --danger: rgba(150, 93, 233, 1);
+    --danger: #420f7b;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -164,7 +163,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: hsl(280, 86%, 43%);
+    color: #C03E9B;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -216,7 +215,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: hsl(280, 86%, 43%);;
+        background: #C03E9B;
         transition: .5s;
     }
 
@@ -261,7 +260,6 @@ h6,
 }
 
 .display-1 {
-    font-size: 70px;
     color: transparent;
     -webkit-text-stroke: .1px #fdf8f9;
     background: url(/img/back.png);
@@ -270,8 +268,9 @@ h6,
     animation: back 20s linear infinite;
 }
 
-.display-color{
-    color: #febc68
+.display-color {
+    color: #febc68;
+    margin: auto;
 }
 
 @keyframes back {
@@ -551,12 +550,8 @@ h6,
 }
 
 .bg-header {
-    background: var(--dark);
+    background: #310d56;
     background-size: cover;
-}
-
-.bg-header2{
-    border-top: 1px solid rgba(150, 93, 233, 1);
 }
 
 .link-animated a {
@@ -599,40 +594,18 @@ h6,
 
 
 
-.btn-grad {
-    background-image: linear-gradient(to right, rgba(99, 88, 238, 1) 0%, rgba(150, 93, 233, 1) 51%, rgba(99, 88, 238, 1) 100%);
-    padding: 8px 20px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 1px #5e1b99;
-    border: 2px solid white;
-    border-radius: 10px;
-    display: block;
-}
-
-.btn-grad:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-}
-
-
 
 .fixed-btn {
     position: fixed;
     bottom: 2%;
     left: .5%;
-    background-image: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+    background-image: linear-gradient(83.2deg, #420f7b 10.8%, #4A1145 94.3%);
     width: 180px;
     height: 45px;
     line-height: 45px;
     text-align: center;
     border-radius: 3px;
-    box-shadow: 4px 4px 4px rgba(150, 93, 233, 1);
+    box-shadow: 4px 4px 4px #420f7b;
     cursor: pointer;
     z-index: 1;
 }
@@ -652,15 +625,7 @@ h6,
     margin-top: 7rem;
 }
 
-.vcimg {
-    width: 100px;
-    margin: auto;
-    margin-right: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 6px #5e1b99;
-}
-
-.marginlow{
+.marginlow {
     margin-top: 0;
     padding-bottom: 0;
 }
