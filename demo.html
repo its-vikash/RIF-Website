@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+
+
+        .containerinc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .containerinc .card3 {
+            width: 330px;
+            height: 416px;
+            padding: .7rem .7rem;
+            /* margin: 45px; */
+            background: #32024a;
+            border-radius: 10px;
+        }
+
+     
+        .profile-card {
+            width: 100%;
+            height: 100%;
+            max-width: 450px;
+            text-align: center;
+            background: #fff;
+            color: #333;
+        }
+
+        .cover-pic {
+            display: block;
+            width: 100%;
+        }
+
+        .profile-pic {
+            width: 140px;
+            border-radius: 50%;
+            margin-top: -70px;
+            box-shadow: 0 0 0 0px #ff004f;
+            transition: box-shadow 0.5s;
+        }
+
+        .profile-pic:hover {
+            box-shadow: 0 0 0 5px #ff004f;
+        }
+
+        .profile-card h1 {
+            font-weight: 600;
+        }
+
+        .follow-btn {
+            display: inline-block;
+            text-decoration: none;
+            border: 1px solid #ff004f;
+            color: #555;
+            padding: 6px 35px;
+            margin: 25px 0;
+        }
+
+        .rowinc {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .rowinc h2 {
+            font-weight: 500;
+            font-size: 30px;
+        }
+
+        .view-btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #ff004f;
+            color: #fff;
+            width: 100%;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    
+    <div class="box-container">
+        <div class="containerinc">
+            <div class="card3">
+                <div class="profile-card">
+                    <img src="img/carousel-1.jpg" alt="" class="cover-pic">
+                    <img src="img/team/yatendra.webp" alt="" class="profile-pic">
+                    <h1>Aman</h1>
+                    <p>peragraph</p>
+
+                    <a href="#" class="view-btn">View profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="containerinc">
+            <div class="card3">
+                <div class="profile-card">
+                    <img src="img/carousel-1.jpg" alt="" class="cover-pic">
+                    <img src="img/team/yatendra.webp" alt="" class="profile-pic">
+                    <h1>Aman</h1>
+                    <p>peragraph</p>
+
+                    <a href="#" class="view-btn">View profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
