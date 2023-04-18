@@ -25,7 +25,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    
+
 
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -39,6 +39,7 @@
     <script>
         $(function () {
             $("#includefooter").load("./assets/footer.html");
+            $("#includetopbar").load("./assets/topbar.html");
         });
     </script>
 
@@ -53,35 +54,7 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>RIF, MJPRU, Bareilly
-                    </small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91 9412510763</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@rifmjpru.com</small>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://twitter.com/mjp_bareilly"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://www.facebook.com/mjpruofficial/"><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank" href=""><i
-                            class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank"
-                        href="https://www.instagram.com/mjpru.official"><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" target="_blank"
-                        href="https://www.youtube.com/channel/UCzUtKWfqBhlNIQzc59jdFBQ"><i
-                            class="fab fa-youtube fw-normal"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
+    <div id="includetopbar"></div>
 
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
@@ -99,7 +72,14 @@
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="profile.html" class="nav-item nav-link">Incubatees Profile</a>
-                    <a href="team.html" class="nav-item nav-link">Team Members</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RIF Team</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="./rifteam/boardofdirectors.html" class="dropdown-item">Board of Directors</a>
+                            <a href="./rifteam/advisiorybord.html" class="dropdown-item">Advisiory Board Members</a>
+                            <a href="./rifteam/team.html" class="dropdown-item">Team</a>
+                        </div>
+                    </div>
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -258,7 +238,7 @@
     <!-- Features Start -->
 
     <!-- news Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -329,7 +309,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- news End -->
 
 
@@ -506,20 +486,21 @@
     <div class="container-fluid py-5 marginlow wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5 marginlow">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-danger text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+                <h5 class="fw-bold text-danger text-uppercase">News and Events</h5>
+                <!-- <h1 class="mb-0"></h1> -->
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-danger mb-1">Client Name</h4>
+                            <h4 class="text-danger mb-1">Ideathon 2023</h4>
                             <small class="text-uppercase">Profession</small>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        IDEAthon 2023 is a unique opportunity for young creative minds to come together, brainstorm, and
+                        float their innovative ideas and solutions to the real world challenges.
                     </div>
                 </div>
                 <div class="testimonial-item bg-light my-4">
@@ -583,7 +564,7 @@
     <!-- Vendor End -->
 
 
-   
+    <div id="includefooter"></div>
 
 
     <!-- JavaScript Libraries -->

@@ -15,116 +15,82 @@
             box-sizing: border-box;
         }
 
+        body {
+            background: #191919;
+        }
 
-
-        .containerinc {
+        .gallery {
+            width: 900px;
             display: flex;
-            justify-content: center;
+            overflow-x: scroll;
+        }
+
+        .gallery div {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            padding: 10px;
+            flex: none;
+        }
+
+        .gallery div img {
+            width: 100%;
+            filter: grayscale(100%);
+            transition: transform 0.5s;
+        }
+
+        .gallery::-webkit-scrollbar {
+            display: none;
+        }
+
+        .gallery-wrap {
+            display: flex;
             align-items: center;
-            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10% auto;
         }
 
-        .containerinc .card3 {
-            width: 330px;
-            height: 416px;
-            padding: .7rem .7rem;
-            /* margin: 45px; */
-            background: #32024a;
-            border-radius: 10px;
+        #backBtn,
+        #nextBtn {
+            width: 50px;
+            cursor: pointer;
+            margin: 40px;
         }
 
-     
-        .profile-card {
-            width: 100%;
-            height: 100%;
-            max-width: 450px;
-            text-align: center;
-            background: #fff;
-            color: #333;
+        .gallery div img:hover {
+            filter: grayscale(0);
+            cursor: pointer;
+            transform: scale(1.1);
         }
-
-        .cover-pic {
-            display: block;
-            width: 100%;
-        }
-
-        .profile-pic {
-            width: 140px;
-            border-radius: 50%;
-            margin-top: -70px;
-            box-shadow: 0 0 0 0px #ff004f;
-            transition: box-shadow 0.5s;
-        }
-
-        .profile-pic:hover {
-            box-shadow: 0 0 0 5px #ff004f;
-        }
-
-        .profile-card h1 {
-            font-weight: 600;
-        }
-
-        .follow-btn {
-            display: inline-block;
-            text-decoration: none;
-            border: 1px solid #ff004f;
-            color: #555;
-            padding: 6px 35px;
-            margin: 25px 0;
-        }
-
-        .rowinc {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .rowinc h2 {
-            font-weight: 500;
-            font-size: 30px;
-        }
-
-        .view-btn {
-            display: inline-block;
-            text-decoration: none;
-            background: #ff004f;
-            color: #fff;
-            width: 100%;
-            padding: 15px 0;
-            margin-top: 30px;
-        }
-
-        
     </style>
 </head>
 
 <body>
-    
-    <div class="box-container">
-        <div class="containerinc">
-            <div class="card3">
-                <div class="profile-card">
-                    <img src="img/carousel-1.jpg" alt="" class="cover-pic">
-                    <img src="img/team/yatendra.webp" alt="" class="profile-pic">
-                    <h1>Aman</h1>
-                    <p>peragraph</p>
+    <div class="gallery-wrap">
+        <img src="images/back.png" alt="" id="backBtn">
 
-                    <a href="#" class="view-btn">View profile</a>
-                </div>
+        <div class="gallery">
+            <div>
+                <span><img src="./images/image-1.png" alt=""></span>
+                <span><img src="./images/image-2.png" alt=""></span>
+                <span><img src="./images/image-3.png" alt=""></span>
+            </div>
+
+            <div>
+
+                <span><img src="./images/image-4.png" alt=""></span>
+                <span><img src="./images/image-5.png" alt=""></span>
+                <span><img src="./images/image-6.png" alt=""></span>
             </div>
         </div>
-        <div class="containerinc">
-            <div class="card3">
-                <div class="profile-card">
-                    <img src="img/carousel-1.jpg" alt="" class="cover-pic">
-                    <img src="img/team/yatendra.webp" alt="" class="profile-pic">
-                    <h1>Aman</h1>
-                    <p>peragraph</p>
-
-                    <a href="#" class="view-btn">View profile</a>
-                </div>
-            </div>
-        </div>
+        <img src="images/next.png" alt="" id="nextBtn">
     </div>
 </body>
+
+<script>
+   
+
+</script>
 
 </html>
