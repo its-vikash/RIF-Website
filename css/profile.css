@@ -25,7 +25,7 @@
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
-    color: tomato;
+    color: #091E3E;
 }
 
 .team .member span {
@@ -70,13 +70,13 @@
 }
 
 .team .member .social a i {
-    color: tomato;
+    color: #091E3E;
     font-size: 16px;
     margin: 0 2px;
 }
 
 .team .member .social a:hover {
-    background: tomato;
+    background: #091E3E;
 }
 
 .team .member .social a:hover i {
@@ -106,7 +106,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: tomato;
+    color: #091E3E;
 }
 
 .underline {
