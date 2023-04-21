@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+
+#profile6 header{
+  background: url("../img/IncubateesProfile/paanduv.webp") no-repeat 50% 20% / cover;
+}
+
 .header__wrapper header {
   width: 100%;
   background: url("../img/bg.jpeg") no-repeat 50% 20% / cover;
