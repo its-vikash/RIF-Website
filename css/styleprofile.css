@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+#profile1 header{
+  border-bottom:5px solid #0091ff;
+  background: url("../img/IncubateesProfile/treateasybg.png") no-repeat 50% 20% / cover;
+}
 
 #profile6 header{
   background: url("../img/IncubateesProfile/paanduv.webp") no-repeat 50% 20% / cover;
